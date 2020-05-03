@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(./media/cover.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+div {
+  width: 100%;
+}
+
+div .icon {
+  width: 100%;
+  background-color: #ee5253;
+  padding: 10px 20px;
+  text-align: right;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 30px;
+  display: none;
+}
+
+div .icon .fas {
+  cursor: pointer;
+}
+
+div ul {
+  background-color: #ee5253;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+div ul li {
+  display: inline-block;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 20px 100px;
+  cursor: pointer;
+}
+
+div ul li:hover {
+  opacity: .5;
+}
+
+.active {
+  display: block;
+}
+
+@media screen and (min-width: 1407px) and (max-width: 1465px) {
+  div ul li {
+    padding: 20px 95px;
+  }
+}
+
+@media (min-width: 1352.22px) and (max-width: 1406.98px) {
+  div ul li {
+    padding: 20px 90px;
+  }
+}
+
+@media (min-width: 1297.22px) and (max-width: 1352px) {
+  div ul li {
+    padding: 20px 85px;
+  }
+}
+
+@media (min-width: 1241.11px) and (max-width: 1297px) {
+  div ul li {
+    padding: 20px 80px;
+  }
+}
+
+@media (min-width: 1131.11px) and (max-width: 1241px) {
+  div ul li {
+    padding: 20px 70px;
+  }
+}
+
+@media (min-width: 1019px) and (max-width: 1131px) {
+  div ul li {
+    padding: 20px 60px;
+  }
+}
+
+@media (min-width: 907.78px) and (max-width: 1018.98px) {
+  div ul li {
+    padding: 20px 50px;
+  }
+}
+
+@media (min-width: 804px) and (max-width: 907.76px) {
+  div ul li {
+    padding: 20px 40px;
+  }
+}
+
+@media (max-width: 803.98px) {
+  div .icon {
+    display: block;
+  }
+  div ul {
+    background-color: #ff6b6b;
+    width: 100%;
+    cursor: pointer;
+    display: none;
+  }
+  div ul li {
+    display: block;
+  }
+  div ul li:hover {
+    opacity: .5;
+  }
+}
+
+.nav-active {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
